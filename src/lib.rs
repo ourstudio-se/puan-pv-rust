@@ -23,7 +23,7 @@ pub trait PropT {
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-#[serde(untagged)]
+#[serde(tag = "type")]
 pub enum Proposition {
     AtLeast(AtLeast),
     AtMost(AtMost),
