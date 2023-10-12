@@ -1,0 +1,13 @@
+[package]
+name = "puan-pv"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rikard <rikard@ourstudio.se>"]
+description = "Propositional logic statements with evaluation functionalities implemented"
+license = "Apache-2.0"
+license-file = "LICENSE"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.188", features = ["derive", "rc"] }
