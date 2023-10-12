@@ -306,7 +306,7 @@ impl PropT for Implies {
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-struct PropKey {
+pub struct PropKey {
     prop: Proposition,
     key: String,
 }
